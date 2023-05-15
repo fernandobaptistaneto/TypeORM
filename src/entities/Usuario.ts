@@ -2,6 +2,9 @@ import { Entity, Column, PrimaryGeneratedColumn, PrimaryColumn } from "typeorm";
 
 @Entity('usuario')
 export class Usuario{
+    static find() {
+        throw new Error("Method not implemented.");
+    }
     @PrimaryGeneratedColumn('uuid')
     id_usuario!: number
 
