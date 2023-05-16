@@ -16,4 +16,5 @@ export class Usuario {
 
     @Column({ type: 'varchar' })
     email: string
+
 }
