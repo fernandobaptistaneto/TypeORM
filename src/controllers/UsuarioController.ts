@@ -30,3 +30,4 @@ export class UsuarioController {
         return res.json(userId)
     }
 }
+

@@ -14,3 +14,4 @@ export const appDataSource = new DataSource({
     database: process.env.DB_NAME,
     entities: [Usuario]
 })
+
